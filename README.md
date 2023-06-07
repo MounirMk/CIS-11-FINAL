@@ -43,7 +43,6 @@ The program will be run in an LC-3 simulator.
 Constraints include the limitations of the LC-3 assembly language and simulator.
 # 2.6Assumptions and Dependencies
 This program is dependent on the LC-3 simulator for execution.
-# 3
 # 3. External Interface Requirements
 # 3.1 User Interfaces
 The user interfaces with the program through the LC-3 simulator console.
