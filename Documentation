@@ -1,1 +1,42 @@
+# 4.3 Flow Chart OR Pseudocode.
+Main Program:
 
+Initialize an array of size 5 for storing test scores
+
+Initialize variables for minimum, maximum, and sum to store the respective values
+
+For i from 0 to 4:
+
+Prompt the user for input
+
+Store the input in the ith index of the array
+
+Set the minimum and maximum to the first score
+
+Set sum to 0
+
+For each score in the array:
+
+Call subroutine CalculateLetterGrade with score as parameter
+
+If the score is less than the minimum, update the minimum
+
+If the score is more than the maximum, update the maximum
+
+Add the score to the sum
+
+Calculate the average as sum/5
+
+Display the minimum, maximum, and average scores
+
+Subroutine CalculateLetterGrade(score):
+
+If the score is between 0 and 50, display 'F'
+
+Else if the score is between 60 and 69, display 'D'
+
+Else if the score is between 70 and 79, display 'C'
+
+Else if the score is between 80 and 89, display 'B'
+
+Else if the score is between 90 and 100, display 'A
